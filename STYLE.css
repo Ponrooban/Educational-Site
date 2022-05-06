@@ -1,0 +1,713 @@
+
+@import url(font.css);
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(56, 56, 58);
+    overflow: auto;  
+}
+#pg1{
+    background-image: url(./images/banner\ 1\ blckk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+#cont1{
+    width: 1100px;
+    margin: 0px auto;
+    height: 600px;
+}
+#navbar{
+    width: 1100px;
+    height: 80px;
+    margin: 0px auto;
+    background: rgba( 180, 111, 237, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    
+}
+#logo1{
+    width: 190px;
+    height: 72px;
+    padding-top: 8px;
+    float: left;    
+}
+#logo2{
+    width: 150px;
+    height: 80px;
+    background-image:url(./images/PinClipart.com_box-tops-for-education_3356936.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;   
+}
+#menubar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:12px; 
+}
+#menubar{
+    float: right;
+    padding-right:15px;
+}
+#menubar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    padding: 0px 10px 0px 10px;
+    
+}
+#menubar ul li a:hover{     
+    background-color: rgba(184, 129, 236, 0.356);
+    border-radius: 15px;
+    width: 100px;
+
+
+}
+#lftb{
+    height: 400px;
+    width: 350px;
+    float: left;
+    padding: 100px 100PX 0PX 10PX;
+}
+#tx1{
+    font-size:60px;
+    color: white;
+    font-family: poppinsbk;
+    height: 65px;
+
+}
+#tx2{
+    font-size:45px;
+    color: white;
+    font-family: poppinsbk;
+
+}
+#tx3{
+    font-size:30px;
+    color: white;
+    font-family: poppinstn;
+    font-weight: bold;
+
+}
+#tx4{
+    font-size:15px;
+    color: white;
+    font-family: poppins;
+}
+#rtb{
+    height: 520px;
+    width: 630px;
+    float: left;
+    z-index: -1;
+}
+#img1{
+    height: 500px;
+    width: 500px;
+    background-image: url(./images/—Pngtree—hand\ drawn\ class\ illustration\ student_3933285.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:120px;
+    position: absolute; 
+    margin-top: 50px; 
+    transition: width 1s,height 1s;
+}
+#img2{   
+    height: 500px;
+    width: 600px;
+    background-image: url(./images/magicpattern-blob-1646909024164.png);
+    background-repeat: no-repeat;
+    background-size: cover;         
+}
+#img1:hover{
+    width:550px;
+    height: 550px;
+}
+
+
+/* PAGE 2 STARTS */
+
+#pg2{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(29, 11, 25, 0.959);
+}
+#cont2{
+    width: 1100px;
+    margin: 0px auto;
+    height: 600px;
+
+}
+.text1{
+    font-family: poppinsbk;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(226, 111, 237, 0.767);
+    width: 600px;
+    margin: auto;
+    line-height: 50px;
+}
+#cards{
+    width: 1000px;
+    margin: 0px auto;
+    height: 400px;
+}
+#card1{
+    width: 333px;
+    float: left;
+    height: 400px;
+    background: rgba( 40, 4, 71, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: width 1s,height 1s;
+}
+#card2{
+    width: 290px;
+    float: left;
+    height: 400px;
+    margin:0px 20px 0px 20px;
+    background: rgba( 40, 4, 71, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#card3{
+    width: 330px;
+    float: right;
+    height: 400px;
+    background: rgba( 40, 4, 71, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+}
+#l1{
+    font-size: 44px;
+    background-color: rgba(41, 41, 41, 0.74);
+    border-radius: 100px;
+    width: 80px;
+    height:65px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 80px;
+    color: rgb(44, 128, 196);
+    transition: all 0.2s;
+    position: relative;
+
+}
+#t1{
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+#t2{
+    font-family: poppinstn;
+    font-size: 18px;
+    color: white;
+    text-align:center;
+    width: 280px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+#l1:hover{
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 100px;
+}
+
+/* PAGE 3 STARTS */
+
+#pg3{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(29, 11, 25, 0.959);
+}
+#cont3{
+    width: 1100px;
+    height: 600px;   
+    margin: auto;
+}
+
+#lftp{
+
+    width: 600px;
+    height: 500px;
+    padding-top: 100px;
+    float: left;
+}
+#pc1{
+    background-image: url(./images/stud1.png);
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 30px;
+    border-radius: 15px;   
+}
+#cd1{
+    background-color: rgb(0, 5, 19);
+    border-radius: 12px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    left: 280px;
+    bottom: 100px;
+}
+#tt1{
+    color: white;
+    text-align: center;
+    font-family:poppinsmd;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#tt2{
+    color: white;
+    text-align: center;
+    font-family:poppinsmd;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#tt3{
+    color: white;
+    text-align: center;
+    font-family:poppinsmd;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+#rgtt{
+  
+    float: right;
+    width: 500px;
+    height:500px;
+    padding-top: 100px;
+}
+#tt22{
+    color: white;
+    text-align: justify;
+    font-family:poppinstn;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#rt1{
+    font-size:30px;
+    color: white;
+    font-family: poppinsbk;
+    padding-left: 10px;
+  
+}
+#tt4{
+    color: white;
+    text-align: left;
+    font-family:poppinsr;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+#bt1{
+
+    background-color: #f5cd1a;
+    font-size: medium;
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(33, 36, 34, 0.6) ;
+    font-family: poppins;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ #bt1 a{
+     text-decoration: none;
+     color: white;
+ }
+ #bt1:hover{
+    background-color: dimgray;
+}
+
+ /* PAGE 4 STARTS */
+
+ #pg4{
+     width: 100%;
+     height: 700px;
+     background-color: rgba(29, 11, 25, 0.959);
+ }
+}
+#cont4{
+    width: 1100px;
+    margin: 0px auto;
+    height: 700px;
+
+}
+.text1{
+    font-family: poppinsbk;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(226, 111, 237, 0.767);
+}
+#cards{
+    width: 1000px;
+    margin: 0px auto;
+    height: 400px;
+}
+#card1{
+    width: 333px;
+    float: left;
+    height: 400px;
+    background: rgba( 40, 4, 71, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#imd1{
+    background-image: url(./images/stud2.jpg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.tll{
+    float: left;
+    font-family: poppinsr;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+
+}
+.tlr{
+    float: right;
+    font-family: poppinsr;
+    padding-right: 10px;
+    padding-top: 10px;
+    color:white;
+}
+#hed{
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+#dc{
+    font-family: poppinstn;
+    color: white;
+    clear: both;
+    padding: 10px;
+}
+#imd2{
+    background-image: url(./images/stud\ 3.jpg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+#imd3{
+    background-image: url(./images/stud4.jpg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+#bt2{
+
+    background-color: #f5cd1a;   
+    border-radius: 25px;
+    padding:10px 60px 10px 60px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(33, 36, 34, 0.6) ;
+    font-family: poppins;
+    margin-top: 20px;
+    margin-left: 320px;  
+ }
+ #bt2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: poppins;
+}
+#bt2:hover{
+    background-color: dimgray;
+}
+
+/* PAGE 5 STARTS */
+
+#pg5{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(29, 11, 25, 0.959);   
+}
+#cont5{
+    width: 1100px;
+    height: 400px;
+
+    margin: auto;
+}
+#toptx{
+    width: 100%;
+    height: 150px;
+  
+}
+#hed1{
+    font-family: poppinsbk;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#tit{
+    font-family: poppins;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#botx{
+    height: 250px;
+}
+.f1{
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.num{
+    font-family: poppins;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+   
+}
+#b1{
+    width: 275px;
+    height: 250px;
+    float: left;
+}
+#b2{
+    width: 275px;
+    height: 250px;
+    float: left;
+}
+#b3{
+    width: 275px;
+    height: 250px;
+    float: left;
+}
+#b4{
+    width: 275px;
+    height: 250px;
+    float: left;
+}
+
+/* PAGE 6 STARTS */
+
+#pg6{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(29, 11, 25, 0.959); 
+   
+}
+#cont6{
+    width: 1200px;
+    height: 500px;
+    background-image: url(./images/stud6.jpg);
+    border-radius: 20px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+/* PAGE 7 STARTS  */
+
+#pg7{
+   height:400px;
+   background-image: url(./images/lbg.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+#cont01{
+   height:400px;
+   background-color: rgba(0, 0, 0, 0.788);
+   
+}
+#cont7{
+    width: 1100px;
+    height: 380px;
+    margin: auto;
+    padding-top: 20px;
+}
+#tp1{
+    width: 1100px;
+    height: 150px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#ltpp{
+    width: 600px;
+    height: 150px;
+    float: left;
+}
+#ltp{
+    font-family: poppinsbk;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: left;
+}
+#ltp2{
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    text-align: left;
+    
+}
+#tt5{
+    color: white;
+    text-align: center;
+    font-family:poppinsmd;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    padding-right: 50px;  
+    float: left;
+    margin-top: 58px;
+}
+#bt3{    
+    background-color: #f5cd1a;
+    font-size: medium;
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(33, 36, 34, 0.6) ;
+    font-family: poppins;
+    margin-top: 50px;
+    float: left;
+   
+ }
+ #bt3 a{
+    text-decoration: none;
+    color: white;
+}
+#bt3:hover{
+    background-color: dimgray;
+}
+
+
+#rtp{
+    float: right;
+   width: 500px;
+   height: 150px;
+}
+#bott{
+    width: 1100px;
+    height: 230px;
+}
+#bot1{
+    width:275px;
+    height: 230px;
+    float: left;  
+}
+#tb1{
+    font-family: poppins;
+    font-size: 18px;
+    color: rgba(255, 252, 62, 0.76);
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+#tb2{
+    font-family: poppinsr;
+    font-size: 15px;
+    color: white;
+    padding-left: 12px;
+    line-height: 30px;
+
+}
+#bot2{
+    width:275px;
+    height: 230px;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;    
+}
+#bot3{
+    width:275px;
+    height: 230px;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;  
+}
+#bot4{
+    width:275px;
+    height: 230px;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;  
+}
+#em{
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid rgb(235, 242, 24);
+}
+#snc{
+    background-size: cover;
+}
+
+#em:focus{
+    border: 1px solid rgb(235, 242, 24);
+    outline: 0px;
+    color: blanchedalmond;
+}
